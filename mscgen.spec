@@ -2,12 +2,13 @@ Summary:	mscgen - Message Sequence Chart Renderer
 Summary(pl.UTF-8):	mscgen - narzędzie do renderowania wykresów z formatu MSC
 Name:		mscgen
 Version:	0.20
-Release:	3
+Release:	4
 License:	GPL v2+
 Group:		Applications/Graphics
-Source0:	http://www.mcternan.me.uk/mscgen/software/%{name}-src-%{version}.tar.gz
+#Source0Download: https://www.mcternan.me.uk/mscgen/
+Source0:	https://www.mcternan.me.uk/mscgen/software/%{name}-src-%{version}.tar.gz
 # Source0-md5:	65c90fb5150d7176b65b793f0faa7377
-URL:		http://www.mcternan.me.uk/mscgen/
+URL:		https://www.mcternan.me.uk/mscgen/
 BuildRequires:	bison
 BuildRequires:	flex
 BuildRequires:	gd-devel >= 2.0.22
